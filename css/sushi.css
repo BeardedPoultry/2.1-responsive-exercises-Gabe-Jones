@@ -9,9 +9,22 @@
            font-face: "Adobe Caslon Pro", Georgia, serif;
            color: rgba(92, 165, 213, 1);
          }
-         img {
+         .container {
+           max-width: 99%;
+         }
+         .container img {
            height: auto;
-           max-width: 100%;
+           width: 100%;
+         }
+         .roe-container,
+         .shashimicont,
+         .noodlescont {
+           width: 30%;
+           margin: 1%;
+           display: inline-block;
+           vertical-align: top;
+           font-size: 1.5em;
+           text-align: left;
          }
 }
 /*            Tablet Media                 */
@@ -25,9 +38,30 @@
            font-face: "Adobe Caslon Pro", Georgia, serif;
            color: rgba(92, 165, 213, 1);
          }
+         .container {
+           max-width: 99%;
+         }
          img {
            height: auto;
            max-width: 100%;
+         }
+         img {
+           height: auto;
+           max-width: 100%;
+         }
+         .container img {
+           height: auto;
+           width: 100%;
+         }
+         .roe-container,
+         .shashimicont,
+         .noodlescont {
+           width: 33%;
+           margin: 1%;
+           display: block;
+           vertical-align: middle;
+           font-size: 1.5em;
+           text-align: center;
          }
 }
 /*            Phone Media                  */
@@ -41,28 +75,25 @@
            font-face: "Adobe Caslon Pro", Georgia, serif;
            color: rgba(92, 165, 213, 1);
          }
+         .container {
+           max-width: 99%;
+         }
          img {
            height: auto;
            max-width: 100%;
          }
-}
-
-.container {
-  max-width: 99%;
-}
-
-.sub-container {
-  width: 33%;
-  margin: 1%;
-  display: inline-block;
-  vertical-align: top;
-}
-.img-box {
-  height: auto;
-}
-h1 {
-  text-align: center;
-}
-p {
-  text-align: center;
+         .container img {
+           height: auto;
+           width: 100%;
+         }
+         .roe-container,
+         .shashimicont,
+         .noodlescont {
+           width: 33%;
+           margin: 1%;
+           display: block;
+           vertical-align: middle;
+           font-size: 1.5em;
+           text-align: center;
+         }
 }
