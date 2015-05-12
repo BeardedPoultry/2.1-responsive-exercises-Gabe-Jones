@@ -95,3 +95,8 @@
            text-align: left;
          }
 }
+footer {
+  text-align: center;
+  text-decoration: none;
+  margin-top: 25%;
+}
