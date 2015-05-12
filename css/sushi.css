@@ -2,7 +2,7 @@
 body {
   font-size: 62.5%;
   font-face: "Adobe Caslon Pro", Georgia, serif;
-  display: inline-block;
+  color: red;
 }
 
 img {
@@ -10,22 +10,20 @@ img {
   width: 343px;
 }
 .container {
-  width: 80%;
+  width: 90%;
+  height: auto;
+  float: left;
 }
-@media screen and (max-width: 800px) {
-  .box {
-    width: 45%;
-    margin-right: 10%;
-}
+
 h1 {
   text-align: center;
 }
 p {
   text-align: center;
 }
-.roepage {
-  margin: ;
+.roepage .noodlespage .sashimipage {
+  float: left;
 }
-.box {
-  width: 25%;
+.text {
+  float: right;
 }
