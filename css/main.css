@@ -1,0 +1,32 @@
+
+body {
+  font-size: 62.5%;
+  font-face: "Adobe Caslon Pro", Georgia, serif;
+  clear: float;
+  background-color: rgba(199, 255, 226, 1)
+}
+img {
+  height: 100px;
+  width: 100px;
+}
+
+.rightBlock {
+  float: left;
+  margin-left: 10%;
+  margin-right: 5%;
+  margin-top: 40px;
+}
+
+.centerBlock {
+  float: left;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 40px;
+}
+
+.leftBlock {
+  float: left;
+  margin-left: 5%;
+  margin-right: 10%;
+  margin-top: 40px;
+}
