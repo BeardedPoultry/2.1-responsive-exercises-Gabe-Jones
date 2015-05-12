@@ -1,4 +1,8 @@
-
+@media screen and (max-width: 840px){
+    body {
+      background-color: red;
+         }
+}
 body {
   font-size: 62.5%;
   font-face: "Adobe Caslon Pro", Georgia, serif;
