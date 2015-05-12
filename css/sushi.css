@@ -1,10 +1,31 @@
+
 body {
   font-size: 62.5%;
   font-face: "Adobe Caslon Pro", Georgia, serif;
-  clear: float;
+  display: inline-block;
 }
 
 img {
   height: 186px;
   width: 343px;
+}
+.container {
+  width: 80%;
+}
+@media screen and (max-width: 800px) {
+  .box {
+    width: 45%;
+    margin-right: 10%;
+}
+h1 {
+  text-align: center;
+}
+p {
+  text-align: center;
+}
+.roepage {
+  margin: ;
+}
+.box {
+  width: 25%;
 }
