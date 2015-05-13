@@ -14,9 +14,6 @@
   width: 30%;
   display: inline-block;
 }
-.text {
-  width:85%;
-}
 body {
   background-color: rgba(94, 164, 212, 1);
   color: white;
@@ -32,4 +29,7 @@ input,
 select {
   background-color: rgba(94, 164, 212, 1);
   color: white;
+  width: 85%;
+  border-color: rgba(255, 255, 254, 1);
+  border-width: white;
 }
