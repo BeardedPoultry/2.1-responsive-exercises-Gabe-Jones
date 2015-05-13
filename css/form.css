@@ -1,14 +1,35 @@
+* {
+  color: white;
+}
+::-webkit-input-placeholder {
+  color: #2a6b99 ;
+  font-style: italic;
+}
 .columns {
+  width: 99%%;
+}
+.column1,
+.column2,
+.column3 {
   width: 30%;
-  display: block;
+  display: inline-block;
+}
+.text {
+  width:85%;
+}
+body {
   background-color: rgba(94, 164, 212, 1);
+  color: white;
+  font-size: 14px;
 }
-.columns {
-
-}
-
 footer {
   text-align: center;
   text-decoration: none;
   margin-top: 25%;
+
+}
+input,
+select {
+  background-color: rgba(94, 164, 212, 1);
+  color: white;
 }
